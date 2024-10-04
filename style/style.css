@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(204, 43%, 93%);
+}
+
+.container {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid transparent;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+}
+
+.container-community {
+    width: 100%;
+    height: 230px;
+    display: flex;
+    padding: 30px 30px;
+    border-radius: 10px 10px;
+    justify-content: start;
+    background-color: #fff;
+}
+
+.description-community {
+    width: 90%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.description-community h2 {
+    color: hsl(179, 62%, 43%);
+    font-size: 26px;
+    font-weight: 600;
+    text-align: start;
+    line-height: 1.5;
+    margin: 0px 0px 15px;
+}
+
+.description-community span {
+    color: hsl(71, 73%, 54%);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: start;
+}
+
+.description-community p {
+    color: hsl(218, 22%, 67%);
+    font-size: 16px;
+    font-weight: 500;
+    text-align: start;
+    margin-top: 10px;
+}
+
+/* Container - Two */
+.container-two {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.container-subscription {
+    width: 100%;
+    max-width: 50%;
+    height: 300px;
+    display: flex;
+    padding: 30px 30px;
+    border-radius: 0px 0px 0px 10px;
+    justify-content: start;
+    background-color: hsl(179, 62%, 48%);
+}
+
+.description-subscription {
+    width: 100%;
+    height: auto;
+}
+
+.description-subscription h3 {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 600;
+    text-align: start;
+    margin: 0px 0px 20px;
+}
+
+.price {
+    gap: 25px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.price span {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+.price p {
+    color: hsl(218, 22%, 67%);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: 10px;
+}
+
+.description-subscription p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: start;
+    margin: 0px 0px 20px;
+}
+
+.description-subscription button {
+    width: 100%;
+    padding: 15px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    white-space: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    transition: .6s ease;
+    background-color: hsl(71, 73%, 54%);
+}
+
+.description-subscription button:hover {
+    color: #1a1a1a;
+    background-color:hsl(71, 73%, 94%);
+}
+
+.container-us {
+    width: 100%;
+    max-width: 50%;
+    height: 300px;
+    padding: 30px 30px;
+    border-radius: 0px 0px 10px 0px;
+    background-color: hsl(179, 62%, 68%);
+}
+
+.description-us {
+    width: 74%;
+    height: auto;
+}
+
+.description-us h2 {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 600;
+    text-align: start;
+    margin: 0px 0px 15px;
+}
+
+.description-us p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: start;
+}
