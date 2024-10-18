@@ -181,3 +181,84 @@ body {
     font-weight: 500;
     text-align: start;
 }
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .container {
+        width: 80%;
+    }
+
+    .container-two {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-subscription, .container-us {
+        max-width: 100%;
+        border-radius: 0;
+    }
+
+    .container-subscription {
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    .container-us {
+        border-radius: 10px 10px 0px 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .description-community h2,
+    .description-subscription h3,
+    .description-us h2 {
+        font-size: 22px;
+    }
+
+    .description-community span,
+    .description-community p,
+    .description-subscription p,
+    .description-us p,
+    .price span {
+        font-size: 16px;
+    }
+
+    .description-subscription button {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 100%;
+    }
+
+    .description-community h2,
+    .description-subscription h3,
+    .description-us h2 {
+        font-size: 20px;
+    }
+
+    .description-community span,
+    .description-community p,
+    .description-subscription p,
+    .description-us p,
+    .price span {
+        font-size: 14px;
+    }
+
+    .description-subscription button {
+        font-size: 16px;
+    }
+
+    .container-community {
+        padding: 20px;
+    }
+
+    .container-subscription, .container-us {
+        padding: 20px;
+    }
+}
